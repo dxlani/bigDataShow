@@ -1,5 +1,5 @@
 <template>
-  <swiper :options="swiperOption">
+  <swiper >
     <swiper-slide>
         <slide1></slide1>
     </swiper-slide>
@@ -17,20 +17,11 @@
 
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator";
+import VueAwesomeSwiper from 'vue-awesome-swiper'
 import { default as slide1 } from "../slide/slide1.vue";
 import { default as slide2 } from "../slide/slide2.vue";
 import { default as slide3 } from "../slide/slide3.vue";
-@Component({
-  components:{
-    slide1,
-    slide2,
-    slide3,
-  }
-})
-export default class home extends Vue {
-  public swiperOption = {};
-  created() {
-    this.swiperOption = {
+Vue.use(VueAwesomeSwiper, { 
       slidesPerView: 1,
       scrollbar: {
         el: ".swiper-scrollbar",
@@ -45,7 +36,17 @@ export default class home extends Vue {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev"
       }
-    };
+ })
+@Component({
+  components:{
+    slide1,
+    slide2,
+    slide3,
+  }
+})
+export default class home extends Vue {
+  created() {
+    
   }
 }
 </script>
