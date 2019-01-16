@@ -1,0 +1,39 @@
+ /* swiper样式 */
+ @import 'swiper/dist/css/swiper.css';
+/* 全局样式 */
+.swiper-container,html {
+    height:100%;
+    background-color: #fff;
+    box-sizing: border-box;
+ }
+ 
+ body {
+     height:100%;
+     font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+     font-size: 14px;
+     -webkit-font-smoothing: antialiased;
+     color: #58666e;
+     overflow-x: hidden;
+     margin:0;
+     padding:0;
+ }
+
+ .h1,
+ .h2,
+ .h3,
+ .h4,
+ .h5,
+ .h6 {
+     margin: 0;
+ }
+
+
+ /* 操作按钮位置 */
+ .btnPostion{
+    margin:20px;
+ }
+
+ /*富文本编辑器高度*/
+ .ql-editor {
+    height: 200px!important;
+}
