@@ -33,7 +33,7 @@ Vue.use(Router)
     //     ]
     // },
   ],
-     mode:'hash'   //默认
+     mode:'history'   //默认
 })
 
 router.beforeEach((to, from, next) => {
