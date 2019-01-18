@@ -10,7 +10,7 @@
 <script lang="ts">
   import Vue from 'vue'
   import Component from 'vue-class-component'
- import 'vue-transition.css'
+
 
 export default {
   name: 'App'
@@ -20,7 +20,7 @@ export default {
 <style lang="scss" scoped>
     
 #app {
-	position: relative;
+  position: relative;
 	top: 0px;
 	bottom: 0px;
 	width: 100%;
