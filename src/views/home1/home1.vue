@@ -1,5 +1,5 @@
 <template>
-    <div class="app">
+    <div class="app" id="xx">
     <transition name="rotate-flip-bottom">
         <router-view class="app-router-view"></router-view>
      </transition>
@@ -14,10 +14,25 @@ import 'vue-transition.css'
   }
 })
 export default class home extends Vue {
-  created() {
-   
+  mounted() {
+      var that=this;
+      var div=document.getElementsByClassName('app')[0] as any;
+      div.onmousedown=function(e){  
+        var a1=e.screenX;
+        div.onmouseup=function(e){
+        var a2=e.screenX;
+        if(a1>a2){
+          console.log("左滑啊");
+          that.$router.push('./slide1')
+          }
+        if(a1<a2){
+          console.log("右滑啊");
+          that.$router.push('./slide3')
+          }
+        }
+      }
+    }
   }
-}
 </script>
 
 <style >

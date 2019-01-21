@@ -9,6 +9,7 @@ export default class slide1 extends Vue {
 
   created() {
     var _this = this;
+    console.log(this.$route,this.$router.options.routes[2].children)
         $(document).keydown(function(e) {
             let key = e.keyCode;
             if (key == 40) {
