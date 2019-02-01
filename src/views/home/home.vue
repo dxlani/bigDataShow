@@ -1,9 +1,6 @@
 <template>
   <swiper >
     <swiper-slide>
-        <slide5></slide5>
-    </swiper-slide>
-    <swiper-slide>
         <slide1></slide1>
     </swiper-slide>
     <swiper-slide>
@@ -14,6 +11,9 @@
     </swiper-slide>
     <swiper-slide>
         <slide4></slide4>
+    </swiper-slide>
+    <swiper-slide>
+        <slide5></slide5>
     </swiper-slide>
     <div class="swiper-scrollbar" slot="scrollbar"></div>
   </swiper>
@@ -33,14 +33,14 @@ Vue.use(VueAwesomeSwiper, {
         el: ".swiper-scrollbar",
         hide: true         //底部滚动条显示
       },
-      // autoplay: {
-      //     delay: 30000,        //自动轮播
-      //     disableOnInteraction: false  //操作中断轮播   
-      // },
+      autoplay: {
+          delay: 20000,        //自动轮播
+          disableOnInteraction: false  //操作中断轮播   
+      },
       keyboard: {
         enabled: true   //键盘切换
       },
-      // mousewheel: true, //鼠标滑动切换
+      mousewheel: true, //鼠标滑动切换
       loop: false, //无缝切换
       navigation: {   //键盘配置
         nextEl: ".swiper-button-next",
