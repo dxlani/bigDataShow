@@ -1,0 +1,30 @@
+[
+    {
+        "time": "2018-10",
+        "sumFeeAmount": 51868656.05,
+        "sumTon": 196335.20150,
+        "num": 10624,
+        "sumReceivableTotalPrice": 55278725.29
+    },
+    {
+        "time": "2018-11",
+        "sumFeeAmount": 46102826.93,
+        "sumTon": 232967.92860,
+        "num": 10455,
+        "sumReceivableTotalPrice": 49113138.94
+    },
+    {
+        "time": "2018-12",
+        "sumFeeAmount": 55632305.95,
+        "sumTon": 263625.05480,
+        "num": 13126,
+        "sumReceivableTotalPrice": 59822165.59
+    },
+    {
+        "time": "2018-01",
+        "sumFeeAmount": 58392258.78,
+        "sumTon": 281891.89060,
+        "num": 14053,
+        "sumReceivableTotalPrice": 64325673.67
+    }
+]

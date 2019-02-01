@@ -1,0 +1,228 @@
+{
+    "errorMessage": null,
+    "errorCode": null,
+    "success": true,
+    "data": 
+        {
+            "provinceVehiclesList": [
+                {
+                    "province": "贵州",
+                    "counts": 35,
+                    "id": null
+                },
+                {
+                    "province": "江西",
+                    "counts": 1239,
+                    "id": null
+                },
+                {
+                    "province": "辽宁",
+                    "counts": 4239,
+                    "id": null
+                },
+                {
+                    "province": "湖北",
+                    "counts": 506,
+                    "id": null
+                },
+                {
+                    "province": "福建",
+                    "counts": 1113,
+                    "id": null
+                },
+                {
+                    "province": "陕西",
+                    "counts": 221,
+                    "id": null
+                },
+                {
+                    "province": "青海",
+                    "counts": 16,
+                    "id": null
+                },
+                {
+                    "province": "山东",
+                    "counts": 9608,
+                    "id": null
+                },
+                {
+                    "province": "黑龙江",
+                    "counts": 2342,
+                    "id": null
+                },
+                {
+                    "province": "云南",
+                    "counts": 234,
+                    "id": null
+                },
+                {
+                    "province": "北京",
+                    "counts": 150,
+                    "id": null
+                },
+                {
+                    "province": "河北",
+                    "counts": 13013,
+                    "id": null
+                },
+                {
+                    "province": "吉林",
+                    "counts": 1063,
+                    "id": null
+                },
+                {
+                    "province": "宁夏",
+                    "counts": 384,
+                    "id": null
+                },
+                {
+                    "province": "四川",
+                    "counts": 188,
+                    "id": null
+                },
+                {
+                    "province": "新疆",
+                    "counts": 33,
+                    "id": null
+                },
+                {
+                    "province": "山西",
+                    "counts": 1675,
+                    "id": null
+                },
+                {
+                    "province": "广西",
+                    "counts": 235,
+                    "id": null
+                },
+                {
+                    "province": "上海",
+                    "counts": 1824,
+                    "id": null
+                },
+                {
+                    "province": "天津",
+                    "counts": 328,
+                    "id": null
+                },
+                {
+                    "province": "浙江",
+                    "counts": 880,
+                    "id": null
+                },
+                {
+                    "province": "重庆",
+                    "counts": 249,
+                    "id": null
+                },
+                {
+                    "province": "湖南",
+                    "counts": 110,
+                    "id": null
+                },
+                {
+                    "province": "海南",
+                    "counts": 6,
+                    "id": null
+                },
+                {
+                    "province": "甘肃",
+                    "counts": 101,
+                    "id": null
+                },
+                {
+                    "province": "安徽",
+                    "counts": 13584,
+                    "id": null
+                },
+                {
+                    "province": "广东",
+                    "counts": 499,
+                    "id": null
+                },
+                {
+                    "province": "江苏",
+                    "counts": 17874,
+                    "id": null
+                },
+                {
+                    "province": "内蒙古",
+                    "counts": 300,
+                    "id": null
+                },
+                {
+                    "province": "西藏",
+                    "counts": 2,
+                    "id": null
+                },
+                {
+                    "province": "河南",
+                    "counts": 7191,
+                    "id": null
+                },
+                {
+                    "province": "台湾",
+                    "counts": 0,
+                    "id": null
+                },
+                {
+                    "province": "南海诸岛",
+                    "counts": 0,
+                    "id": null
+                }
+            ],
+            "vehicleTypeList": [
+                {
+                    "carType": "平板",
+                    "counts": 16921
+                },
+                {
+                    "carType": "半挂",
+                    "counts": 15254
+                },
+                {
+                    "carType": "标厢",
+                    "counts": 12474
+                },
+                {
+                    "carType": "高栏平板",
+                    "counts": 12155
+                },
+                {
+                    "carType": "大平板",
+                    "counts": 4628
+                },
+                {
+                    "carType": "高低板",
+                    "counts": 4190
+                }
+            ],
+            "vehicleLengthList": [
+                {
+                    "carLength": "13米",
+                    "counts": 45482
+                },
+                {
+                    "carLength": "其他",
+                    "counts": 16014
+                },
+                {
+                    "carLength": "17.5米",
+                    "counts": 13678
+                },
+                {
+                    "carLength": "9.6米",
+                    "counts": 8026
+                },
+                {
+                    "carLength": "6.8米",
+                    "counts": 5256
+                },
+                {
+                    "carLength": "4.2米",
+                    "counts": 2287
+                }
+            ]
+        }
+    
+}

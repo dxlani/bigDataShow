@@ -1,0 +1,26 @@
+[
+    {
+        "key": "2019-02-1",
+        "value": {
+            "withdrawalsMoneyOfMonths": "18335100",
+            "totalWithdrawalsMoney": "41078300",
+            "averageWithdrawalsMoney": "3605"
+        }
+    },
+    {
+        "key": "2019-02-21",
+        "value": {
+            "withdrawalsMoneyOfMonths": "18335799",
+            "totalWithdrawalsMoney": "410783175",
+            "averageWithdrawalsMoney": "3605"
+        }
+    },
+    {
+        "key": "2019-02-22",
+        "value": {
+            "withdrawalsMoneyOfMonths": "11629939",
+            "totalWithdrawalsMoney": "411133450",
+            "averageWithdrawalsMoney": "3754"
+        }
+    }
+]

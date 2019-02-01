@@ -11,6 +11,7 @@ Vue.use(Vuex);
 const store = new Vuex.Store({
     state: {
         ossBucket:'',//ali-oss
+        vehicleType:[]
     },
     mutations: {
         judgeDomain:(state,data)=>{
@@ -21,6 +22,9 @@ const store = new Vuex.Store({
               }else {
                 state.ossBucket="sinostoragedev"
               }
+        },
+        SET_vehicleTypeList:(state,data)=>{
+            state.vehicleType = data; 
         }
     },
     actions: {
@@ -30,7 +34,7 @@ const store = new Vuex.Store({
         client,
         app,
         login,
-        feedBack
+        feedBack 
     }
 });
 

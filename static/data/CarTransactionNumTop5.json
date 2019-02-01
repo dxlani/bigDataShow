@@ -1,0 +1,32 @@
+{
+    "errorMessage": null,
+    "errorCode": null,
+    "success": true,
+    "data": [
+        {
+            "id": 1,
+            "carCode": "苏LF8450",
+            "num": 393
+        },
+        {
+            "id": 2,
+            "carCode": "苏BG3733",
+            "num": 116
+        },
+        {
+            "id": 3,
+            "carCode": "苏D69111",
+            "num": 99
+        },
+        {
+            "id": 4,
+            "carCode": "苏LF9705",
+            "num": 69
+        },
+        {
+            "id": 5,
+            "carCode": "苏D78758",
+            "num": 59
+        }
+    ]
+}

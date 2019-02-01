@@ -1,0 +1,248 @@
+ [
+        {
+            "key": "安徽马鞍山-安徽合肥",
+            "value": [
+                {
+                    "feeAmount": 2219.63,
+                    "origin": "1205",
+                    "destination": "1201",
+                    "time": "2019-01"
+                },
+                {
+                    "feeAmount": 2134.66,
+                    "origin": "1205",
+                    "destination": "1201",
+                    "time": "2018-12"
+                },
+                {
+                    "feeAmount": 2116.45,
+                    "origin": "1205",
+                    "destination": "1201",
+                    "time": "2018-11"
+                },
+                {
+                    "feeAmount": 2103.33,
+                    "origin": "1205",
+                    "destination": "1201",
+                    "time": "2018-10"
+                },
+                {
+                    "feeAmount": 2132.87,
+                    "origin": "1205",
+                    "destination": "1201",
+                    "time": "2018-09"
+                },
+                {
+                    "feeAmount": 2189.47,
+                    "origin": "1205",
+                    "destination": "1201",
+                    "time": "2018-08"
+                }
+            ]
+        },
+        {
+            "key": "江苏镇江-上海上海",
+            "value": [
+                {
+                    "feeAmount": 3174.83,
+                    "origin": "1011",
+                    "destination": "0901",
+                    "time": "2019-01"
+                },
+                {
+                    "feeAmount": 3271.16,
+                    "origin": "1011",
+                    "destination": "0901",
+                    "time": "2018-12"
+                },
+                {
+                    "feeAmount": 2386.19,
+                    "origin": "1011",
+                    "destination": "0901",
+                    "time": "2018-11"
+                },
+                {
+                    "feeAmount": 2163.79,
+                    "origin": "1011",
+                    "destination": "0901",
+                    "time": "2018-10"
+                },
+                {
+                    "feeAmount": 2075.82,
+                    "origin": "1011",
+                    "destination": "0901",
+                    "time": "2018-09"
+                },
+                {
+                    "feeAmount": 1993.71,
+                    "origin": "1011",
+                    "destination": "0901",
+                    "time": "2018-08"
+                }
+            ]
+        },
+        {
+            "key": "江苏扬州-江苏镇江",
+            "value": [
+                {
+                    "feeAmount": 1844.54,
+                    "origin": "1010",
+                    "destination": "1011",
+                    "time": "2019-01"
+                },
+                {
+                    "feeAmount": 1934.56,
+                    "origin": "1010",
+                    "destination": "1011",
+                    "time": "2018-12"
+                },
+                {
+                    "feeAmount": 2300.95,
+                    "origin": "1010",
+                    "destination": "1011",
+                    "time": "2018-11"
+                },
+                {
+                    "feeAmount": 2284.00,
+                    "origin": "1010",
+                    "destination": "1011",
+                    "time": "2018-10"
+                },
+                {
+                    "feeAmount": 2280.82,
+                    "origin": "1010",
+                    "destination": "1011",
+                    "time": "2018-09"
+                },
+                {
+                    "feeAmount": 2367.42,
+                    "origin": "1010",
+                    "destination": "1011",
+                    "time": "2018-08"
+                }
+            ]
+        },
+        {
+            "key": "江苏常州-江苏常州",
+            "value": [
+                {
+                    "feeAmount": 879.16,
+                    "origin": "1004",
+                    "destination": "1004",
+                    "time": "2019-01"
+                },
+                {
+                    "feeAmount": 866.02,
+                    "origin": "1004",
+                    "destination": "1004",
+                    "time": "2018-12"
+                },
+                {
+                    "feeAmount": 642.24,
+                    "origin": "1004",
+                    "destination": "1004",
+                    "time": "2018-11"
+                },
+                {
+                    "feeAmount": 0.0,
+                    "origin": "1004",
+                    "destination": "1004",
+                    "time": "2018-10"
+                },
+                {
+                    "feeAmount": 0.0,
+                    "origin": "1004",
+                    "destination": "1004",
+                    "time": "2018-09"
+                },
+                {
+                    "feeAmount": 0.0,
+                    "origin": "1004",
+                    "destination": "1004",
+                    "time": "2018-08"
+                }
+            ]
+        },
+        {
+            "key": "陕西榆林-山东滨州",
+            "value": [
+                {
+                    "feeAmount": 9050.00,
+                    "origin": "2708",
+                    "destination": "1516",
+                    "time": "2019-01"
+                },
+                {
+                    "feeAmount": 9888.39,
+                    "origin": "2708",
+                    "destination": "1516",
+                    "time": "2018-12"
+                },
+                {
+                    "feeAmount": 9934.38,
+                    "origin": "2708",
+                    "destination": "1516",
+                    "time": "2018-11"
+                },
+                {
+                    "feeAmount": 0.0,
+                    "origin": "2708",
+                    "destination": "1516",
+                    "time": "2018-10"
+                },
+                {
+                    "feeAmount": 0.0,
+                    "origin": "2708",
+                    "destination": "1516",
+                    "time": "2018-09"
+                },
+                {
+                    "feeAmount": 0.0,
+                    "origin": "2708",
+                    "destination": "1516",
+                    "time": "2018-08"
+                }
+            ]
+        },
+        {
+            "key": "安徽马鞍山-安徽滁州",
+            "value": [
+                {
+                    "feeAmount": 1943.50,
+                    "origin": "1205",
+                    "destination": "1210",
+                    "time": "2019-01"
+                },
+                {
+                    "feeAmount": 1982.64,
+                    "origin": "1205",
+                    "destination": "1210",
+                    "time": "2018-12"
+                },
+                {
+                    "feeAmount": 1927.86,
+                    "origin": "1205",
+                    "destination": "1210",
+                    "time": "2018-11"
+                },
+                {
+                    "feeAmount": 1970.73,
+                    "origin": "1205",
+                    "destination": "1210",
+                    "time": "2018-10"
+                },
+                {
+                    "feeAmount": 1953.96,
+                    "origin": "1205",
+                    "destination": "1210",
+                    "time": "2018-09"
+                },
+                {
+                    "feeAmount": 2043.80,
+                    "origin": "1205",
+                    "destination": "1210",
+                    "time": "2018-08"
+                }
+            ]
+        }
+    ]

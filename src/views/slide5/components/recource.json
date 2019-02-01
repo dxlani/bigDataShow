@@ -1,0 +1,244 @@
+[
+    {
+        "key":"2019/2/1",
+        "value":{
+             "TodayData": "38",
+             "TodayPercentage": "0.0789",
+             "LastdayData": "35",
+             "LastdayPercentage": "0.0245",
+             "TodayBug": "6",
+             "TodayBugPercentage": "-0.1429"
+        }
+    },
+    {
+        "key": "2019/2/2",
+        "value": {
+            "TodayData": "27",
+            "TodayPercentage": "-0.2895",
+            "LastdayData": "38",
+            "LastdayPercentage": "0.0789",
+            "TodayBug": "10",
+            "TodayBugPercentage": "0.6667"
+        }
+    },
+    {
+        "key":"2019/2/3",
+        "value":{
+             "TodayData": "50",
+             "TodayPercentage": "0.8519",
+             "LastdayData": "27",
+             "LastdayPercentage": "-0.2895",
+             "TodayBug": "3",
+             "TodayBugPercentage": "-0.7"
+        }
+    },
+    {
+        "key":"2019/2/4",
+        "value":{
+             "TodayData": "36",
+             "TodayPercentage": "-0.28",
+             "LastdayData": "50",
+             "LastdayPercentage": "0.8519",
+             "TodayBug": "2",
+             "TodayBugPercentage": "-0.3333"
+        }
+    },
+    {
+        "key":"2019/2/5",
+        "value":{
+             "TodayData": "33",
+             "TodayPercentage": "-0.0833",
+             "LastdayData": "36",
+             "LastdayPercentage": "-0.28",
+             "TodayBug": "4",
+             "TodayBugPercentage": "1"
+        }
+    },
+    {
+        "key":"2019/2/6",
+        "value":{
+             "TodayData": "31",
+             "TodayPercentage": "-0.0606",
+             "LastdayData": "33",
+             "LastdayPercentage": "-0.0833",
+             "TodayBug": "2",
+             "TodayBugPercentage": "-0.5"
+        }
+    },
+    {
+        "key":"2019/2/7",
+        "value":{
+             "TodayData": "50",
+             "TodayPercentage": "0.6129",
+             "LastdayData": "31",
+             "LastdayPercentage": "-0.0606",
+             "TodayBug": "7",
+             "TodayBugPercentage": "2.5"
+        }
+    },
+    {
+        "key":"2019/2/8",
+        "value":{
+             "TodayData": "46",
+             "TodayPercentage": "-0.08",
+             "LastdayData": "50",
+             "LastdayPercentage": "0.6129",
+             "TodayBug": "8",
+             "TodayBugPercentage": "0.1429"
+        }
+    },
+    {
+        "key":"2019/2/9",
+        "value":{
+             "TodayData": "45",
+             "TodayPercentage": "-0.0217",
+             "LastdayData": "46",
+             "LastdayPercentage": "-0.08",
+             "TodayBug": "9",
+             "TodayBugPercentage": "0.125"
+        }
+    },
+    {
+        "key":"2019/2/10",
+        "value":{
+             "TodayData": "50",
+             "TodayPercentage": "0.1111",
+             "LastdayData": "45",
+             "LastdayPercentage": "-0.0217",
+             "TodayBug": "4",
+             "TodayBugPercentage": "-0.5556"
+        }
+    },
+    {
+        "key":"2019/2/11",
+        "value":{
+             "TodayData": "45",
+             "TodayPercentage": "-0.1",
+             "LastdayData": "50",
+             "LastdayPercentage": "0.1111",
+             "TodayBug": "1",
+             "TodayBugPercentage": "-0.75"
+        }
+    },
+    {
+        "key":"2019/2/12",
+        "value":{
+             "TodayData": "50",
+             "TodayPercentage": "0.1111",
+             "LastdayData": "45",
+             "LastdayPercentage": "-0.1",
+             "TodayBug": "5",
+             "TodayBugPercentage": "4"
+        }
+    },
+    {
+        "key":"2019/2/13",
+        "value":{
+             "TodayData": "47",
+             "TodayPercentage": "-0.06",
+             "LastdayData": "50",
+             "LastdayPercentage": "0.1111",
+             "TodayBug": "1",
+             "TodayBugPercentage": "-0.8"
+        }
+    },
+    {
+        "key":"2019/2/14",
+        "value":{
+             "TodayData": "48",
+             "TodayPercentage": "0.0213",
+             "LastdayData": "47",
+             "LastdayPercentage": "-0.06",
+             "TodayBug": "4",
+             "TodayBugPercentage": "3"
+        }
+    },
+    {
+        "key":"2019/2/15",
+        "value":{
+             "TodayData": "38",
+             "TodayPercentage": "-0.2083",
+             "LastdayData": "48",
+             "LastdayPercentage": "0.0213",
+             "TodayBug": "2",
+             "TodayBugPercentage": "-0.5"
+        }
+    },
+    {
+        "key":"2019/2/16",
+        "value":{
+             "TodayData": "49",
+             "TodayPercentage": "0.2895",
+             "LastdayData": "38",
+             "LastdayPercentage": "-0.2083",
+             "TodayBug": "6",
+             "TodayBugPercentage": "2"
+        }
+    },
+    {
+        "key":"2019/2/17",
+        "value":{
+             "TodayData": "52",
+             "TodayPercentage": "0.0612",
+             "LastdayData": "49",
+             "LastdayPercentage": "0.2895",
+             "TodayBug": "10",
+             "TodayBugPercentage": "0.6667"
+        }
+    },
+    {
+        "key":"2019/2/18",
+        "value":{
+             "TodayData": "32",
+             "TodayPercentage": "-0.3846",
+             "LastdayData": "52",
+             "LastdayPercentage": "0.0612",
+             "TodayBug": "5",
+             "TodayBugPercentage": "-0.5"
+        }
+    },
+    {
+        "key":"2019/2/19",
+        "value":{
+             "TodayData": "36",
+             "TodayPercentage": "0.125",
+             "LastdayData": "32",
+             "LastdayPercentage": "-0.3846",
+             "TodayBug": "2",
+             "TodayBugPercentage": "-0.6"
+        }
+    },
+    {
+        "key":"2019/2/20",
+        "value":{
+             "TodayData": "31",
+             "TodayPercentage": "-0.1389",
+             "LastdayData": "36",
+             "LastdayPercentage": "0.125",
+             "TodayBug": "3",
+             "TodayBugPercentage": "0.5"
+        }
+    },
+    {
+        "key":"2019/2/21",
+        "value":{
+             "TodayData": "44",
+             "TodayPercentage": "0.4194",
+             "LastdayData": "31",
+             "LastdayPercentage": "-0.1389",
+             "TodayBug": "3",
+             "TodayBugPercentage": "0"
+        }
+    },
+    {
+        "key":"2019/2/22",
+        "value":{
+             "TodayData": "49",
+             "TodayPercentage": "0.1136",
+             "LastdayData": "44",
+             "LastdayPercentage": "0.4194",
+             "TodayBug": "1",
+             "TodayBugPercentage": "-0.6667"
+        }
+    }
+]

@@ -1,0 +1,12 @@
+{
+    "errorMessage": null,
+    "errorCode": null,
+    "success": true,
+    "data":[
+        {"id":1,"carSource":"江苏省","num":3732},
+        {"id":2,"carSource":"安徽省","num":2567},
+        {"id":3,"carSource":"河北省","num":1116},
+        {"id":4,"carSource":"山东省","num":1006},
+        {"id":5,"carSource":"河南省","num":819}
+    ]
+}

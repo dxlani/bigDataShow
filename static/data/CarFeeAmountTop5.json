@@ -1,0 +1,12 @@
+{
+    "errorMessage": null,
+    "errorCode": null,
+    "success": true,
+    "data":[
+        {"id":1,"carCode":"苏LF8450","feeAmount":444895.00},
+        {"id":2,"carCode":"苏LF9705","feeAmount":253261.00},
+        {"id":3,"carCode":"沪DS1086","feeAmount":108039.04},
+        {"id":4,"carCode":"沪BL6048","feeAmount":99094.77},
+        {"id":5,"carCode":"沪EG6626","feeAmount":91667.01}
+    ]
+}

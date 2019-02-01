@@ -1,0 +1,26 @@
+﻿[
+  {
+    "key": "2019-02-1",
+    "value": {
+      "totalVehicleCount": "83300",
+      "shipmentVehicleCount": "26",
+      "inTransitVehicleCount": "216"
+    }
+  },
+  {
+    "key": "2019-02-21",
+    "value": {
+      "totalVehicleCount": "83354",
+      "shipmentVehicleCount": "56",
+      "inTransitVehicleCount": "516"
+    }
+  },
+  {
+    "key": "2019-02-22",
+    "value": {
+      "totalVehicleCount": "83521",
+      "shipmentVehicleCount": "80",
+      "inTransitVehicleCount": "743"
+    }
+  }
+]

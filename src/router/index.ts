@@ -1,10 +1,12 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-import home1 from '../views/home1/home1.vue'
-import slide1 from '../views/slide/slide1.vue'
-import slide2 from '../views/slide/slide2.vue'
-import slide3 from '../views/slide/slide3.vue'
+// import home1 from '../views/home1/home1.vue'
+// import slide1 from '../views/slide1/slide.vue'
+// import slide2 from '../views/slide2/slide.vue'
+// import slide3 from '../views/slide3/slide.vue'
+// import slide4 from '../views/slide4/slide.vue'
+// import slide5 from '../views/slide5/slide.vue'
 
 declare var $:any;
 Vue.use(Router)
@@ -23,48 +25,6 @@ Vue.use(Router)
       name:'home',
       component: resolve => require(['../views/home/home'],resolve),
       meta:{title: '大数据',requireAuth: false},
-    },
-    // {
-    //   path:'/home1',
-    //   component: home1,
-    //   children:[
-    //         {
-    //         path: 'slide1',
-    //         component: slide1,
-    //         meta:{title: 'slide1',requireAuth: true},
-    //         },
-    //         {
-    //         path: 'slide2',
-    //         component: slide2,
-    //         meta:{title: 'slide2',requireAuth: true},
-    //         },
-    //         {
-    //         path: 'slide3',
-    //         component: slide3,
-    //         meta:{title: 'slide3',requireAuth: true},
-    //         },
-    //     ]
-    // }, 
-    {
-      path:'/home1',
-      component: resolve => require(['../views/home1/home1'],resolve),
-      children:[
-            {
-            path: 'slide1',
-            component: resolve => require(['../views/slide/slide1'],resolve),
-            meta:{title: 'slide1',requireAuth: true},
-            },
-            {
-            path: 'slide2',
-            component: resolve => require(['../views/slide/slide2'],resolve),
-            meta:{title: 'slide2',requireAuth: true},
-            },
-            {
-            path: 'slide3',
-            component: resolve => require(['../views/slide/slide3'],resolve),
-            meta:{title: 'slide3',requireAuth: true},
-            },
-        ]
     },
   ],
   mode:'history'   //默认

@@ -1,0 +1,12 @@
+{
+    "errorMessage": null,
+    "errorCode": null,
+    "success": true,
+    "data":[
+        {"num":"0-10","carNum":9264,"percentage":0.71228663693679839},
+        {"num":"10-20","carNum":2031,"percentage":0.15615869598646778},
+        {"num":"20-30","carNum":551,"percentage":0.042365062278948179},
+        {"num":"30-40","carNum":217,"percentage":0.016684607104413347},
+        {"num":"40+","carNum":943,"percentage":0.072504997693372292}
+    ]
+}
