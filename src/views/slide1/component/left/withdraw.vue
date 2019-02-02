@@ -133,10 +133,7 @@ export default class StormWithdraw extends Vue {
       new Date().getDate();
 
     this.vehicleInfo = map.get(date);
-
-   
-    
-
+  
     //金额
     const res2 = await GetWithdrawalsMoney();
 

@@ -45,12 +45,12 @@ export default class recourceChart extends Vue {
     LastdayPercentage:string;
     TodayBugPercentage:string;
     resourceData=[
-        {"clientname":"江苏沃得农业机械有限公司","percentage":"0.387627439"},
-        {"clientname":"江苏振光电力设备制造有限公司","percentage":"0.281177629"},
-        {"clientname":"上海宏信设备工程有限公司","percentage":"0.143689941"},
-        {"clientname":"江苏南瑞泰事达电气有限公司","percentage":"0.099928128"},
-        {"clientname":"中电装备青岛豪迈钢结构有限公司","percentage":"0.056805175"},
-        {"clientname":"常州常发农业机械营销有限公司","percentage":"0.030771688"}
+        {"clientname":"沃得农机","percentage":"0.387627439"},
+        {"clientname":"振光电力","percentage":"0.281177629"},
+        {"clientname":"宏信设备","percentage":"0.143689941"},
+        {"clientname":"南瑞泰事达","percentage":"0.099928128"},
+        {"clientname":"青岛豪迈","percentage":"0.056805175"},
+        {"clientname":"常发农机","percentage":"0.030771688"}
     ];
     created(){
         this.todayDate=myData.filter(item=>{
@@ -114,7 +114,7 @@ export default class recourceChart extends Vue {
                         normal: {
                             show: false,
                             position: 'center',
-                            formatter:"{d}% \r\n\r\n {b}" ,
+                            formatter:"{d}%\n\n{b}" ,
                             color:'#fff',
                         },
                         emphasis: {

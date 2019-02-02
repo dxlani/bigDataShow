@@ -50,8 +50,8 @@ export default class StormTradeTimes extends Vue {
       }
     },
     grid: {
-      left: "3%",
-      right: "4%",
+      left: "2%",
+      right: "5%",
       bottom: "3%",
       containLabel: true
     },
@@ -332,11 +332,12 @@ export default class StormTradeTimes extends Vue {
 
 #hrtt-chart {
   position: relative;
-  left: 1%;
+  left: 3%;
   width: 90%;
   height: 75%;
   top: 5%;
   bottom: 10%;
+ 
 }
 
 .storm-hot-route-trade-times {

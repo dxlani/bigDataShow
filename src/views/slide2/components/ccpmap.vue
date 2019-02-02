@@ -35,6 +35,7 @@
 import { Vue, Component,Prop } from "vue-property-decorator";
 import * as echarts from "echarts";
 import "echarts/map/js/china.js";
+import api_ccp from "../../../api/api_ccp";
 interface provinceVehiclesResponse {
   counts: number;
   id: number;
@@ -48,7 +49,8 @@ export default class ccpmap extends Vue {
 
   public provinceVehiclesData:Array<provinceVehiclesResponse> = [];
 
-  public  cat_num_total=[5,8,9,8];
+  public  cat_num_total=[];
+  
   created() {
   }
     geoCoordMap = {
@@ -389,7 +391,7 @@ export default class ccpmap extends Vue {
     }
 
     mounted() {
-    
+    this.GetVehicleSum();
   }
 
 
@@ -401,6 +403,22 @@ export default class ccpmap extends Vue {
     })
     this.myChart = echarts.init(KafkaChart);
     this.myChart.setOption(this.option);
+  }
+
+  GetVehicleSum() {
+    api_ccp.GetVehicleSum().then(res => {
+      var myDate = new Date();
+      var Month = ("0" + (myDate.getMonth() + 1)).slice(-2);
+      var strDate = myDate.getDate();
+      var str = strDate.toString().length==2? strDate : '0'+strDate;
+      var data = myDate.getFullYear() + "-" + Month + "-" + str;
+      res.forEach(element => {
+        if (element.key == data) {
+            var value = element.value;
+             this.cat_num_total =  value.toString().split('');
+        }
+      });
+    });
   }
 }
 </script>
@@ -446,7 +464,7 @@ export default class ccpmap extends Vue {
 }
 
 .main-title-left-text{
-    font-size: 0.8vw;
+    font-size: 1vw;
     color: #01c6f5;
     display: flex;
     flex-direction: row;

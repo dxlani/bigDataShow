@@ -1,3 +1,4 @@
+import { GetVehicleCount } from './nuode/api_nuode';
 import { Post, Get, Patch, Put, Delete, ax } from '../http/http'
 export default {
     ccp: function () {
@@ -14,5 +15,8 @@ export default {
     },
     GetOneCarTransactionNum: function(){
         return Get(`../../static/data/OneCarTransactionNum.json`,{})
+    },
+    GetVehicleSum: function(){
+        return Get(`../../static/data/GetVehicleSum.json`,{})
     }
 }

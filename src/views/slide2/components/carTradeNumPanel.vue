@@ -54,7 +54,7 @@ export default class carTradeNumPanel extends Vue {
           normal: {
             show: false,
             position: "center",
-            formatter: "{d}% \r\n {b}",
+           formatter:"{d}%\n\n{b}",
             color: "#fff"
           },
           emphasis: {

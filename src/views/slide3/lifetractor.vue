@@ -571,7 +571,7 @@ option {
   text-align: center;
   font-size: 20px;
   color: #c0c4cc;
-  padding-top: 20px;
+  margin-top: 4%;
 }
 .parthead p {
   font-size: 13px;
@@ -608,7 +608,7 @@ option {
 .position {
   width: 85%;
   height: 32px;
-  margin: 30px auto;
+  margin: 5% auto;
   margin-bottom: 0px;
   margin-left: 60px;
 }

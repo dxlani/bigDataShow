@@ -1,8 +1,8 @@
 [
     {
         "sumFeeAmount": 1063158750.18,
-        "sumTon": 4006277.65521,
-        "num": 218816,
-        "sumReceivableTotalPrice": 1127298011.57
+        "sumMonthFeeAmount": 11568720.18,
+        "sumQuaterFeeAmount":34706160.53,
+        "sumYearFeeAmount": 88428749.46
     }
 ]

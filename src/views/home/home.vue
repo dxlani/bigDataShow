@@ -34,7 +34,7 @@ Vue.use(VueAwesomeSwiper, {
         hide: true         //底部滚动条显示
       },
       autoplay: {
-          delay: 20000,        //自动轮播
+          delay: 30000,        //自动轮播
           disableOnInteraction: false  //操作中断轮播   
       },
       keyboard: {

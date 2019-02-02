@@ -42,33 +42,64 @@ import { GetRealTimeOrder, trimZero } from "../../../../api/nuode/api_nuode";
 @Component({})
 export default class StormOrderTable extends Vue {
   public inteval: any;
-  orderList = [];
+  public allOrderList = [];
+  public orderList = [];
+  count= 0;
+  minutes;
 
   created() {
-    this.getRealTimeOrder();
+    this.getRealTimeOrder(0);
 
-    this.inteval = setInterval(() => {
-      this.getRealTimeOrder();
-    }, 30 * 1000);
+    
   }
 
-  async getRealTimeOrder() {
-    const res = await GetRealTimeOrder();
   
-    let list = res.data.slice(0, 10);
-    list = list.map((item, index) => {
-      if (typeof item != "object") {
-        return;
+  mounted() {
+    this.inteval = setInterval(() => {
+
+      if (this.orderList.length<10) {
+        this.count=0;
       }
-      item.OrderTime = item.creationTime
-        ? item.creationTime
-        : item.CarrierOrderTime;
-      if (!item.OrderTime) {
-        return;
+      this.getRealTimeOrder(this.count);
+   
+    },  60*1000);
+  }
+
+  async getRealTimeOrder(startIndex?:number) {
+
+  
+    const res = await GetRealTimeOrder();
+    this.allOrderList = res.data;
+    let list = res.data.slice(startIndex, startIndex+10);
+      this.count++;
+
+      let radnum = []
+
+      for (let index = 0; index < 10; index++) {
+        radnum.push(Math.floor(Math.random()*10))
+        
       }
 
-      item.Date = item.OrderTime.split(" ")[0].replace(/-/g, "/");
-      item.Time = item.OrderTime.split(" ")[1];
+      
+
+    list = list.map((item, index,arr) => {
+
+      
+      
+     
+     let hours=new Date().getHours();
+     this.minutes = new Date().getMinutes()-20;
+   
+      item.Date = `${new Date().getFullYear()}/${new Date().getMonth()+1}/${new Date().getDate()}`;
+       if (this.minutes-radnum.sort()[index]<0) {
+        hours--;
+        this.minutes=this.minutes-radnum.sort()[index]+60
+      }else{
+        this.minutes=this.minutes-radnum.sort()[index]
+      }
+
+
+      item.Time = `${hours}:${this.minutes<10?'0'+this.minutes:this.minutes}`;
       item.StartOriginCode =
         item.originCode.length > 7
           ? item.originCode.substring(0, 7)
@@ -82,23 +113,18 @@ export default class StormOrderTable extends Vue {
         item.destinationCityName,
         ""
       );
-      item.QuantityOfGoods = trimZero(item.quantityOfGoods);
+      item.QuantityOfGoods = item.quantityOfGoods;
       item.goodsTypeName =
         item.goodsTypeName.length > 5
           ? item.goodsTypeName.substring(0, 5) + "..."
           : item.goodsTypeName;
-      if (!item.QuantityOfGoods) {
-        return;
-      }
-      let miniNum = item.QuantityOfGoods.toString().split(".")[1];
-      if (miniNum && miniNum.length >= 4) {
-        item.QuantityOfGoods = Number(item.QuantityOfGoods).toFixed(4);
-        //保留四位后可能出现12.0000这样的情况
-        item.QuantityOfGoods = trimZero(item.QuantityOfGoods);
-      }
+     
       return item;
     });
+
     this.orderList = list;
+
+  
 
   }
 }

@@ -71,7 +71,7 @@ export default class carLengthPanel extends Vue {
           normal: {
             show: false,
             position: "center",
-            formatter: "{d}% \r\n {b}",
+            formatter:"{d}%\n\n{b}",
             color: "#fff"
           },
           emphasis: {
@@ -160,7 +160,7 @@ export default class carLengthPanel extends Vue {
   flex-direction: column;
   height: 80%;
   margin-bottom: 10px;
-  margin-right: 10px;
+  margin-right: 25px;
 }
 
 .about-car > div {

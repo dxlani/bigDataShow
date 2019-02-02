@@ -272,6 +272,7 @@ export default class iotMap extends Vue {
 <style lang="scss" scoped>
 #mapChart{
   width: 100%;
-  height: 700px;
+  min-height: 70vh;
 }
+
 </style>
